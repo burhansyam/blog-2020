@@ -3,7 +3,7 @@ date: 2020-04-22
 title: 'Migrasi dan mencoba Gatsbyjs'
 template: post
 thumbnail: '../thumbnails/gatsby.png'
-slug: blogging-dengan-gatsby-js
+slug: mencoba-menambah-post-live-deploy
 categories:
   - IT
 tags:
@@ -12,3 +12,4 @@ tags:
   - gatsby
 ---
 Test tambah postingan 🤪🧏
+😚😘
