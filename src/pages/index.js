@@ -65,6 +65,16 @@ export default class Index extends Component {
 
         <div className="container">
           <section className="section">
+            <h2>
+              Postingan Terbaru
+              <Link to="/blog" className="view-all">
+                Lihat Selengkapnya
+              </Link>
+            </h2>
+            <PostListing simple postEdges={latestPostEdges} />
+          </section>
+
+          <section className="section">
             <h2>Artikel Pilihan</h2>
             <PostListing simple postEdges={popularPostEdges} />
           </section>
