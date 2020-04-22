@@ -11,10 +11,8 @@ tags:
   - react
   - gatsby
 ---
-Test tambah postingan 🤪🧏
+Test tambah postingan 🤪🤘
 😚😘
 
 
-# Look at this Video:
-
-`youtube:https://www.youtube.com/embed/2Xc9gXyf2G4`
+# Fast Fast Fast
