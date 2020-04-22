@@ -60,6 +60,15 @@ module.exports = {
               maxWidth: 850,
             },
           },
+
+         {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: 800,
+              height: 400
+            }
+          },
+
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           {
