@@ -9,19 +9,18 @@ export default class Footer extends Component {
     return (
       <footer className="footer container">
         <div>
-          <a href="https://ko-fi.com/taniarascia" target="_blank" rel="noopener noreferrer">
-            Ko-Fi
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            Burhansyam
           </a>
-          <a href="https://patreon.com/taniarascia" target="_blank" rel="noopener noreferrer">
-            Patreon
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            😘 2020
           </a>
-          <Link to="/newsletter">Newsletter</Link>
-          <a href="https://www.taniarascia.com/rss.xml" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.burhansyam.com/rss.xml" target="_blank" rel="noopener noreferrer">
             RSS
           </a>
         </div>
         <div>
-          <a href="https://github.com/taniarascia" title="Open-source on GitHub">
+          <a href="https://github.com/burhansyam" title="Open-source on GitHub">
             <img
               src={github}
               target="_blank"
