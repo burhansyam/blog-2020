@@ -10,13 +10,10 @@ export default class Footer extends Component {
       <footer className="footer container">
         <div>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            Burhansyam
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer">
-            😘 2020
+            Burhan Syam
           </a>
           <a href="https://www.burhansyam.com/rss.xml" target="_blank" rel="noopener noreferrer">
-            RSS
+            RSS Feed
           </a>
         </div>
         <div>
