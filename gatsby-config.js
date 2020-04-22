@@ -86,25 +86,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
-
-  {
-    resolve: "gatsby-transformer-remark",
-    options: {
-      plugins: [
-      {
-        resolve: "gatsby-remark-embed-youtube",
-        options: {
-          width: 800,
-          height: 400
-        }
-      }
-      ]
-    }
-  },
-
-
-
-
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
