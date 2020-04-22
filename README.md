@@ -7,8 +7,8 @@ Personal website running on Gatsby, React, and NodeJs.
 Run local server:
 
 ```bash
-git clone https://github.com/ihwanid/ihwan.id
-cd ihwan.id
+git clone https://github.com/burhansyam/blog-2020
+cd blog-2020
 yarn
 yarn run dev
 ```
@@ -16,6 +16,7 @@ yarn run dev
 Navigate to `localhost:8000`.
 
 ## Authors
+nuhun kang 
 
 * **Ihwan Dede** - *Associate Android Developer* - [IhwanID](https://ihwan.id)
 
