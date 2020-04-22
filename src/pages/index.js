@@ -49,28 +49,14 @@ export default class Index extends Component {
                   Follow @burhansyam_
                 </a>
               </div>
-              <div>
-                <GitHubButton
-                  href="https://github.com/burhansyam"
-                  data-size="large"
-                  data-show-count="true"
-                  aria-label="Follow @burhansyam on GitHub"
-                >
-                  Follow
-                </GitHubButton>
-              </div>
+
             </div>
           </div>
         </div>
 
         <div className="container">
           <section className="section">
-            <h2>
-              Postingan Terbaru
-              <Link to="/blog" className="view-all">
-                Lihat Selengkapnya
-              </Link>
-            </h2>
+            <h2>Postingan Terbaru</h2>
             <PostListing simple postEdges={latestPostEdges} />
           </section>
 
