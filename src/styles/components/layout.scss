@@ -846,11 +846,42 @@ blockquote {
     display: block;
   }
 }
-
 .footer {
-  height: 55px;
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   color: $light-font-color;
+
+  div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  strong {
+    margin-right: 1rem;
+  }
+
+  a {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    display: block;
+    margin-right: 1.5rem;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.8);
+    }
+  }
+
+  .footer-img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 0;
+  }
 }
+
 
 @include small-breakpoint {
   .footer {
